@@ -1,3 +1,5 @@
 .env
 PDFs/
 *.pdf
+__pycache__/
+*.pyc
