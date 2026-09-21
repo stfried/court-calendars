@@ -86,7 +86,7 @@ SACRAMENTO_JUDGES = {
 
 def send_email(recipient, pdf_path, gif):
 
-    subject = f"Daily CAED Calendar - {date.today()}"
+    subject = f"Weekly EDCA Calendar - {date.today()}"
     sender = f"EDCA Calendar Notifier <{os.environ['EMAIL_USERNAME']}>"
     content = "Attached is the Sacramento Judge Calendar for the next week."
     emailer.send_email(subject, sender, recipient, content, [pdf_path], gif)

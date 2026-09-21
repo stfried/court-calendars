@@ -286,7 +286,7 @@ def send_alerts(processed_checks):
 
         emailer.send_email(
             f"Daily CACD Calendar - {date.today()}",
-            f"EDCA Calendar Notifier <{os.environ['EMAIL_USERNAME']}>",
+            f"CACD Calendar Notifier <{os.environ['EMAIL_USERNAME']}>",
             subscriber,
             "</p>\n<p>".join(lines),
             attachments,
