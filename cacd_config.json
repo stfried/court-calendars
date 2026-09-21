@@ -1,0 +1,119 @@
+{
+    "last_alert": "2026-09-18T21:56:11.933115",
+    "checks": {
+        "Santa Ana DJ": {
+			"criteria": {
+				"all": [
+					{
+						"field": "division",
+						"operator": "equals",
+						"value": "SA"
+					},
+					{
+						"field": "titleType",
+						"operator": "in",
+						"value": ["DJ", "DJS", "DJC"]
+					}
+				]
+			},
+			"term" : "calendar for"
+		},
+		"Trials": {
+			"criteria": {
+				"function": "has_events",
+				"args": [["jury trial", "bench trial", "court trial"]]
+			},
+			"term": "trial on"
+		},
+		"Santa Ana Trials": {
+			"criteria": {
+				"all": [
+					{
+						"field": "division",
+						"operator": "equals",
+						"value": "SA"
+					},
+					{
+						"function": "has_events",
+						"args": [["jury trial", "bench trial", "court trial"]]
+					}
+				]
+			},
+			"term": "trial on"
+		},
+		"Santa Ana Claim Construction": {
+			"criteria": {
+				"all": [
+					{
+						"field": "division",
+						"operator": "equals",
+						"value": "SA"
+					},
+					{
+						"function": "has_events",
+						"args": [["claim construction"]]
+					}
+				]
+			},
+			"term": "claim construction hearing on"
+		},
+		"Klausner": {
+			"criteria": {
+				"field": "initials",
+				"operator": "equals",
+				"value": "RGK"
+			},
+			"term": "calendar for"
+		},
+		"Holcomb": {
+			"criteria": {
+				"field": "initials",
+				"operator": "equals",
+				"value": "JWH"
+			},
+			"term": "calendar for"
+		},
+		"Almadani": {
+			"criteria": {
+				"field": "initials",
+				"operator": "equals",
+				"value": "MRA"
+			},
+			"term": "calendar for"
+		},
+		"Aenlle-Roche": {
+			"criteria": {
+				"field": "initials",
+				"operator": "equals",
+				"value": "FLA"
+			},
+			"term": "calendar for"
+		},
+		"Shay": {
+			"criteria": {
+				"field": "initials",
+				"operator": "equals",
+				"value": "CTS"
+			},
+			"term": "calendar for"
+		}
+    },
+    "subscribers": {
+        "stfriedland@gmail.com": [
+			"Klausner"
+		],
+		"steven_friedland@ca9.uscourts.gov": [
+			"Klausner"
+		],
+		"matt.pham@fciplaw.com": [
+			"Almadani",
+			"Aenlle-Roche",
+			"Shay"
+		],
+		"michael.friedland@fciplaw.com": [
+			"Holcomb",
+			"Almadani",
+			"Santa Ana Trials"
+		]
+    }
+}
