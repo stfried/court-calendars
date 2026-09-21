@@ -1,0 +1,12 @@
+name: Schedule Test
+
+on:
+  schedule:
+    - cron: '49 18 * * *'
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Scheduled workflow fired!"
