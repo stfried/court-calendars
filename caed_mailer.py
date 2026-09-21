@@ -533,6 +533,9 @@ def collect_calendars(session):
                 if "advanced to" in proceeding.lower():
                     continue
 
+                if "reset to" in proceeding.lower():
+                    continue
+
 
                 public_note = strip_html(
                     case.get(
