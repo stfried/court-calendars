@@ -1,8 +1,11 @@
 name: CACD Mailer
 
 on:
+  push:
+    branches:
+      - main
   schedule:
-    - cron: '40 18 * * *'  # Runs every day at 8 AM
+    - cron: '40 18 * * *'
   workflow_dispatch:
 
 permissions:

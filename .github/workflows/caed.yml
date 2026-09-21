@@ -1,8 +1,11 @@
 name: CAED Mailer
 
 on:
+  push:
+    branches:
+      - main
   schedule:
-    - cron: '40 18 * * 1'  # Runs Monday at 8 AM
+    - cron: '40 18 * * *'
   workflow_dispatch:
 
 permissions:
