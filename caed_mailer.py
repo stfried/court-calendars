@@ -94,12 +94,14 @@ def send_email(recipient, pdf_path, gif):
 
 def send_calendar_emails():
 
+    gif = frinkiac.get_gif()
+
     for recipient in CONFIG["recipients"]:
 
         send_email(
             recipient,
             OUTPUT_PDF,
-            frinkiac.get_gif()
+            gif
         )
 
         log.info(
