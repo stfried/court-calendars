@@ -1,6 +1,4 @@
-logging
-requests
-reportlab
 playwright
-io
 pypdf
+reportlab
+requests
