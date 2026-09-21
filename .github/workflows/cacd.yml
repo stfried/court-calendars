@@ -1,0 +1,32 @@
+name: CACD Mailer
+
+on:
+  schedule:
+    - cron: '0 8 * * 1'  # Runs every Monday at 8 AM
+      timezone: "America/Los_Angeles"
+  workflow_dispatch:
+
+jobs:
+  run-cacd-mailer:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run CACD Mailer script
+        env:
+          EMAIL_USERNAME: ${{ secrets.EMAIL_USERNAME }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+        run: |
+          python cacd_mailer.py
