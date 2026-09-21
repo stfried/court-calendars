@@ -2,7 +2,7 @@ name: CACD Mailer
 
 on:
   schedule:
-    - cron: '0 8 * * *'  # Runs every day at 8 AM
+    - cron: '33 11 * * *'  # Runs every day at 8 AM
       timezone: "America/Los_Angeles"
   workflow_dispatch:
 

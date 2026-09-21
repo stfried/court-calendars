@@ -2,7 +2,7 @@ name: CAED Mailer
 
 on:
   schedule:
-    - cron: '0 8 * * 1'  # Runs Monday at 8 AM
+    - cron: '33 11 * * 1'  # Runs Monday at 8 AM
       timezone: "America/Los_Angeles"
   workflow_dispatch:
 
