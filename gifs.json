@@ -1,12 +1,12 @@
 {
-    "gif_number": 0,
+    "gif_number": 1,
     "gif_max": 30,
     "gif_list": [
         {
-            "URL": "https://frinkiac.com/video/S06E19/Epr9gB5acGHc7Sr_3nQLJrdBYRM=.gif",
-            "Description": "Season 6 Episode 19, Lisa's Wedding, directed by Jim Reardon, written by Greg Daniels, aired March 19, 1995.",
-            "Caption": "keep Dad from ruining it? Oh, don't worry, honey. I guarantee your father will behave. Mom, it's a picture phone.",
-            "Filename": "GIFs\\0.gif"
+            "URL": "https://frinkiac.com/video/S10E07/VWcb40hc487-k5-WBOr1EvoiWvw=.gif",
+            "Description": "Season 10 Episode 7, Lisa Gets an A, directed by Bob Anderson, written by Ian Maxtone-Graham, aired November 22, 1998.",
+            "Caption": "And the truth is, we don't deserve this grant and I don't deserve your applause. I cheated on that test.",
+            "Filename": "GIFs/0.gif"
         },
         {
             "URL": "https://frinkiac.com/video/S07E17/logJ3I36UT5DdVFj0wTIkmjcKzQ=.gif",
