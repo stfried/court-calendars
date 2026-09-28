@@ -1,5 +1,5 @@
 {
-    "gif_number": 1,
+    "gif_number": 2,
     "gif_max": 30,
     "gif_list": [
         {
@@ -9,10 +9,10 @@
             "Filename": "GIFs/0.gif"
         },
         {
-            "URL": "https://frinkiac.com/video/S07E17/logJ3I36UT5DdVFj0wTIkmjcKzQ=.gif",
-            "Description": "Season 7 Episode 17, Homer the Smithers, directed by Steven Dean Moore, written by John Swartzwelder, aired February 25, 1996.",
-            "Caption": "The telephone's been ringing for some time. Answer it.",
-            "Filename": "GIFs\\1.gif"
+            "URL": "https://frinkiac.com/video/S01E02/6fFfOHszivgOhHOOXF8UQFlJGgE=.gif",
+            "Description": "Season 1 Episode 2, Bart the Genius, directed by David Silverman, written by Jon Vitti, aired January 14, 1990.",
+            "Caption": "for your big aptitude test tomorrow. We could look this \"id\" thing up in the dictionary. We got one? I think it's under the short leg of the couch.",
+            "Filename": "GIFs/1.gif"
         },
         {
             "URL": "https://frinkiac.com/video/S05E04/C5BEA5QPj26bNWNZhGefV8oWIO0=.gif",
