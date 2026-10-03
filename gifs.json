@@ -1,5 +1,5 @@
 {
-    "gif_number": 6,
+    "gif_number": 7,
     "gif_max": 30,
     "gif_list": [
         {
@@ -39,10 +39,10 @@
             "Filename": "GIFs/5.gif"
         },
         {
-            "URL": "https://frinkiac.com/video/S05E11/rkEsGa84Ce1sI2HgPBQSh3w2FHs=.gif",
-            "Description": "Season 5 Episode 11, Homer the Vigilante, directed by Jim Reardon, written by John Swartzwelder, aired January 06, 1994.",
-            "Caption": "Take that, Maynard G. Krebs! - Hey, see the sign? - Sorry.",
-            "Filename": "GIFs\\6.gif"
+            "URL": "https://frinkiac.com/video/S06E11/Vsad6KTeLy-Am7UhFUfUzKfpMw0=.gif",
+            "Description": "Season 6 Episode 11, Fear of Flying, directed by Mark Kirkland, written by David Sacks, aired December 18, 1994.",
+            "Caption": "I have to get off the plane. Let me off the plane.",
+            "Filename": "GIFs/6.gif"
         },
         {
             "URL": "https://frinkiac.com/video/S02E06/RaNyiVwqmtCrIqGFQHuOGbJ3k4E=.gif",
