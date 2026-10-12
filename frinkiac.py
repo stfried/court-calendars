@@ -1,9 +1,7 @@
 import json
 import os
-from pathlib import Path
 import random
 import time
-import sys
 
 import requests
 from playwright.sync_api import TimeoutError, sync_playwright

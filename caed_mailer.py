@@ -536,6 +536,23 @@ def collect_calendars(session):
                 if "reset to" in proceeding.lower():
                     continue
 
+                if "reset for" in proceeding.lower():
+                    continue
+
+                if "stip'd dismissal" in proceeding.lower():
+                    continue
+
+                if "submitted" in proceeding.lower():
+                    continue
+
+                if "continued to" in proceeding.lower():
+                    continue
+
+                if "case closed" in proceeding.lower():
+                    continue
+
+                if "stip;d dismissal" in proceeding.lower():
+                    continue
 
                 public_note = strip_html(
                     case.get(

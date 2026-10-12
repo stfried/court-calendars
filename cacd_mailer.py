@@ -282,11 +282,11 @@ def send_alerts(processed_checks):
                 if attachment not in attachments:
                     attachments.append(attachment)
         if len(attachments) < 1:
-            lines = [""]
+            lines = ["No alerts today!"]
 
         emailer.send_email(
-            f"Daily CACD Calendar - {date.today()}",
-            f"CACD Calendar Notifier <{os.environ['EMAIL_USERNAME']}>",
+            f"Daily CDCA Calendar - {date.today()}",
+            f"CDCA Calendar Notifier <{os.environ['EMAIL_USERNAME']}>",
             subscriber,
             "</p>\n<p>".join(lines),
             attachments,
