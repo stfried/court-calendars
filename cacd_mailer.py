@@ -275,7 +275,7 @@ def send_alerts(processed_checks, gif=None):
             lines.append(f"🚨 {check} Calendar Alert 🚨")
             if len(new_lines) < 1:
                 lines.append(f"No calendars today.\n")
-                log.info(f"No calendars found for {subscriber}.")
+                log.info(f"No calendars found for {subscriber} matching {check} check.")
                 continue
             lines += new_lines + ["",]
             for attachment in new_attachments:

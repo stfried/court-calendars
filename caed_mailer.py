@@ -94,7 +94,7 @@ def send_email(recipient, pdf_path, gif):
 
 def send_calendar_emails(gif=None):
 
-    gif = frinkiac.get_gif()
+    gif = gif or frinkiac.get_gif()
 
     for recipient in CONFIG["recipients"]:
 
