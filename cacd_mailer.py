@@ -263,9 +263,9 @@ def process_checks(judges: list[Judge], checks):
     log.info(f"Processed {len(processed)} checks.")
     return processed
 
-def send_alerts(processed_checks):
+def send_alerts(processed_checks, gif=None):
     subscribers = CONFIG["subscribers"]
-    gif = frinkiac.get_gif()
+    gif = gif or frinkiac.get_gif()
     for subscriber in subscribers:
         lines = []
         attachments = []
@@ -297,11 +297,11 @@ def send_alerts(processed_checks):
     return
 
 
-def main():
+def main(gif=None):
     log.info("Script launched successfully.")
     processed_judges = process_judges()
     processed_checks = process_checks(processed_judges, CONFIG["checks"])
-    send_alerts(processed_checks)
+    send_alerts(processed_checks, gif)
 
     CONFIG["last_alert"] = datetime.now().isoformat()
     with open(CONFIG_PATH, 'w') as f:

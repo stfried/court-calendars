@@ -92,7 +92,7 @@ def send_email(recipient, pdf_path, gif):
     emailer.send_email(subject, sender, recipient, content, [pdf_path], gif)
 
 
-def send_calendar_emails():
+def send_calendar_emails(gif=None):
 
     gif = frinkiac.get_gif()
 
@@ -1031,7 +1031,7 @@ def create_pdf(matters):
 # MAIN
 # ============================================================
 
-def main():
+def main(gif=None):
 
     log.info("=" * 70)
     log.info("CAED SACRAMENTO JUDGE CALENDAR")
@@ -1062,7 +1062,7 @@ def main():
     log.info("SENDING CALENDAR EMAILS")
     log.info("=" * 70)
 
-    send_calendar_emails()
+    send_calendar_emails(gif)
 
     log.info("=" * 70)
     log.info("DONE")
