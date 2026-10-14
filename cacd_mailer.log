@@ -1,11 +1,14 @@
-2026-10-13 14:15:37 - INFO - Script launched successfully.
-2026-10-13 14:15:47 - INFO - Processing complete. 26 judges with calendars found.
-2026-10-13 14:15:47 - INFO - Processed 9 checks.
-2026-10-13 14:15:53 - INFO - Alert successfully sent to stfriedland@gmail.com.
-2026-10-13 14:15:58 - INFO - Alert successfully sent to steven_friedland@ca9.uscourts.gov.
-2026-10-13 14:15:58 - INFO - No calendars found for matt.pham@fciplaw.com matching Aenlle-Roche check.
-2026-10-13 14:16:02 - INFO - Alert successfully sent to matt.pham@fciplaw.com.
-2026-10-13 14:16:02 - INFO - No calendars found for michael.friedland@fciplaw.com matching Holcomb check.
-2026-10-13 14:16:02 - INFO - No calendars found for michael.friedland@fciplaw.com matching Santa Ana Trials check.
-2026-10-13 14:16:07 - INFO - Alert successfully sent to michael.friedland@fciplaw.com.
-2026-10-13 14:16:07 - INFO - Alerts sent to 4 subscribers.
+2026-10-14 14:15:43 - INFO - Script launched successfully.
+2026-10-14 14:15:47 - INFO - Processing complete. 26 judges with calendars found.
+2026-10-14 14:15:47 - INFO - Processed 9 checks.
+2026-10-14 14:15:47 - INFO - No calendars found for stfriedland@gmail.com matching Klausner check.
+2026-10-14 14:15:52 - INFO - Alert successfully sent to stfriedland@gmail.com.
+2026-10-14 14:15:52 - INFO - No calendars found for steven_friedland@ca9.uscourts.gov matching Klausner check.
+2026-10-14 14:15:56 - INFO - Alert successfully sent to steven_friedland@ca9.uscourts.gov.
+2026-10-14 14:15:56 - INFO - No calendars found for matt.pham@fciplaw.com matching Almadani check.
+2026-10-14 14:15:56 - INFO - No calendars found for matt.pham@fciplaw.com matching Aenlle-Roche check.
+2026-10-14 14:16:01 - INFO - Alert successfully sent to matt.pham@fciplaw.com.
+2026-10-14 14:16:01 - INFO - No calendars found for michael.friedland@fciplaw.com matching Almadani check.
+2026-10-14 14:16:01 - INFO - No calendars found for michael.friedland@fciplaw.com matching Santa Ana Trials check.
+2026-10-14 14:16:05 - INFO - Alert successfully sent to michael.friedland@fciplaw.com.
+2026-10-14 14:16:05 - INFO - Alerts sent to 4 subscribers.
