@@ -1,5 +1,5 @@
 {
-    "gif_number": 1,
+    "gif_number": 2,
     "gif_max": 30,
     "gif_list": [
         {
@@ -9,9 +9,9 @@
             "Filename": "GIFs/0.gif"
         },
         {
-            "URL": "https://frinkiac.com/video/S01E02/6fFfOHszivgOhHOOXF8UQFlJGgE=.gif",
-            "Description": "Season 1 Episode 2, Bart the Genius, directed by David Silverman, written by Jon Vitti, aired January 14, 1990.",
-            "Caption": "for your big aptitude test tomorrow. We could look this \"id\" thing up in the dictionary. We got one? I think it's under the short leg of the couch.",
+            "URL": "https://frinkiac.com/video/S09E21/0WwesSaSCnnaIKQtSRuZwNwekMs=.gif",
+            "Description": "Season 9 Episode 21, Girly Edition, directed by Mark Kirkland, written by Larry Doyle, aired April 19, 1998.",
+            "Caption": "And now, Kidz Newz. Marge, the kids are on.",
             "Filename": "GIFs/1.gif"
         },
         {
